@@ -10,14 +10,11 @@ LANGS = [('en', 'English'), ('da', 'Dansk'), ('es', 'Español'), ('pt', 'Portugu
 LISTS = {'services': ('name', ['name', 'text', 'points']), 'reasons': ('name', ['name', 'text']),
          'career': ('role', ['role']), 'education': ('role', ['role'])}
 SITE = 'https://www.siwalaw.com'
-FONT = 'https://cdn.jsdelivr.net/npm/@fontsource/%s@5.2.8/files/%s-%s-%s-normal.woff2'
+FONT = 'https://cdn.jsdelivr.net/npm/@fontsource/geist-sans@5.2.5/files/geist-sans-%s-%d-normal.woff2'
 def fonts():
     css = ''
-    for w in (400, 500, 600, 700, 800):
-        for sub in ('latin', 'latin-ext'):
-            css += "@font-face{font-family:'Hanken Grotesk';font-weight:%d;font-display:swap;src:url(%s) format('woff2')%s}\n" % (
-                w, FONT % ('hanken-grotesk', 'hanken-grotesk', sub, w), '' if sub == 'latin' else ';unicode-range:U+0100-024F,U+1E00-1EFF')
-    css += "@font-face{font-family:'JetBrains Mono';font-weight:500;font-display:swap;src:url(%s) format('woff2')}\n" % (FONT % ('jetbrains-mono', 'jetbrains-mono', 'latin', 500))
+    for w in (400, 500, 600, 700):
+        css += "@font-face{font-family:'Geist';font-weight:%d;font-display:swap;src:url(%s) format('woff2')}\n" % (w, FONT % ('latin', w))
     return css
 def esc(s): return H.escape(s or '', quote=False)
 def url(code): return '/' if code == 'en' else '/' + code
@@ -36,14 +33,19 @@ def items(code, t, name):
 
 def render_lists(code, t):
     r = {}
-    rows = []
-    for i, s in enumerate(items(code, t, 'services'), 1):
+    svcs = items(code, t, 'services')
+    tabs, panels = [], []
+    for i, s in enumerate(svcs):
         pts = ''.join('<li>%s</li>' % esc(p.strip()) for p in (s.get('points') or '').split('\n') if p.strip())
-        rows.append('<details><summary><span class="n mono">%02d</span><div><h3 class="h5">%s</h3><p class="b3">%s</p></div><span class="pm" aria-hidden="true"></span></summary>'
-                    '<div class="body"><ul class="b3">%s</ul></div></details>' % (i, esc(s.get('name')), esc(s.get('text')), pts))
-    r['SERVICES'] = '\n'.join(rows)
-    r['REASONS'] = '\n'.join('<article class="card reveal"><span class="n mono">%02d</span><h3 class="t2">%s</h3><p class="b3">%s</p></article>'
+        tabs.append('<button class="svc-tab" role="tab" type="button" id="svt%d" aria-controls="svp%d" aria-selected="%s" tabindex="%d">'
+                    '<span class="num">%02d</span><span class="t2">%s</span></button>' % (i, i, 'true' if i == 0 else 'false', 0 if i == 0 else -1, i + 1, esc(s.get('name'))))
+        panels.append('<div class="svc-panel" role="tabpanel" id="svp%d" aria-labelledby="svt%d"%s><h3 class="h5">%s</h3><p class="b7">%s</p><ul class="b3">%s</ul></div>'
+                      % (i, i, '' if i == 0 else ' data-off', esc(s.get('name')), esc(s.get('text')), pts))
+    r['SERVICES'] = '<div class="svc-list" role="tablist" aria-label="%s">%s</div>\n<div class="svc-panels">%s</div>' % (esc(t['services_label']), ''.join(tabs), ''.join(panels))
+    r['REASONS'] = '\n'.join('<article class="reveal"><div><span class="n num">%02d</span><h3 class="h5">%s</h3></div><p class="b7">%s</p></article>'
                              % (i, esc(x.get('name')), esc(x.get('text'))) for i, x in enumerate(items(code, t, 'reasons'), 1))
+    import urllib.parse
+    r['CALL_SUBJ'] = urllib.parse.quote(t.get('call_subject') or en.get('call_subject', ''))
     for name, ph in (('career', 'CAREER'), ('education', 'EDUCATION')):
         r[ph] = ''.join('<li><span>%s</span><span>%s</span></li>' % (esc(x.get('years')), esc(x.get('role'))) for x in items(code, t, name))
     addr = (t.get('address') or en.get('address') or '').strip()
