@@ -155,5 +155,12 @@
     "role": "FIFA-licensierad spelaragent"
    }
   }
- }
+ },
+ "map_label": "Var vi arbetar",
+ "map_title": "Affärer i 50+ länder. Åtta språk.",
+ "map_text": "Våra språk är officiella i mer än 100 länder. Vi läser avtalet, kulturen och rummet.",
+ "legend_deals": "Länder där vi har arbetat med affärer",
+ "legend_lang": "Ett av våra språk är officiellt",
+ "map_aria": "Världskarta över länderna där vi har arbetat med affärer och där våra språk är officiella",
+ "map_note": "Affärer och språk, inte kontor: siwa law ger råd enligt dansk rätt och arbetar remote first."
 }

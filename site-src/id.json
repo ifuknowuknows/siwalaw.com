@@ -155,5 +155,12 @@
     "role": "Agen pemain berlisensi FIFA"
    }
   }
- }
+ },
+ "map_label": "Di mana kami bekerja",
+ "map_title": "Transaksi di 50+ negara. Delapan bahasa.",
+ "map_text": "Bahasa kami menjadi bahasa resmi di lebih dari 100 negara. Kami memahami kontraknya, budayanya, dan suasana ruangannya.",
+ "legend_deals": "Negara tempat kami menangani transaksi",
+ "legend_lang": "Salah satu bahasa kami adalah bahasa resmi",
+ "map_aria": "Peta dunia negara-negara tempat kami menangani transaksi dan tempat bahasa kami menjadi bahasa resmi",
+ "map_note": "Transaksi dan bahasa, bukan kantor: siwa law memberi nasihat berdasarkan hukum Denmark dan bekerja dengan prinsip remote first."
 }

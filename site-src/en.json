@@ -9,12 +9,10 @@
  "cta": "Get in touch",
  "skip": "Skip to content",
  "menu": "Menu",
-
  "hero_label": "International boutique law firm",
  "hero_title": "Empowering visionaries.",
  "hero_sub": "We advise AI and tech companies, start-ups, investors, SMEs, athletes and creators, in eight languages, from idea to exit.",
  "hero_more": "See our services",
-
  "fact1_n": "10+",
  "fact1": "years of deals",
  "fact2_n": "6",
@@ -23,43 +21,86 @@
  "fact3": "languages",
  "fact4_n": "2017",
  "fact4": "admitted to the Danish Bar",
-
  "firm_label": "The firm",
  "firm_title": "From Scandinavia to the world.",
  "firm_p1": "siwa law was founded in Denmark with a global outlook. We are a multilingual boutique firm, committed to getting business done in our clients' best interests.",
  "firm_p2": "For more than ten years we have negotiated and closed deals across six continents. Our ties to Scandinavia, Spain, Brazil, the Middle East and Indonesia give us the cultural insight that local and cross-border work needs.",
  "firm_p3": "Entrepreneurship, AI and tech, sport and international business are where we work best. We take a 360° view of each matter, so your legal work serves your local and global ambitions.",
  "firm_p4": "We work remote first: meetings happen online, which saves you time and cost wherever you are.",
-
  "tagline": "We listen before we solve. Openness, deep listening and understanding first. Then action. That is how a legal advisor becomes a trusted partner.",
-
  "services_label": "Services",
  "services_title": "Six areas, one partner for the whole journey.",
  "services_intro": "From the birth of an idea to protecting it, hiring, funding, scaling, negotiating and, one day, exiting.",
  "services": [
-  {"name": "Start-up, venture capital & investment", "text": "Support from the first idea to scale.", "points": "Company formation and corporate structure\nIP protection and licensing\nContracts, incentive schemes and employment agreements\nEquity splits that prevent founder and investor conflicts\nCoordination with local advisors abroad\nM&A"},
-  {"name": "AI, tech & intellectual property", "text": "Legal clarity in a digital landscape that changes every month.", "points": "IP strategy, trademark and copyright registration\nLicensing, enforcement and risk management\nTech regulation and guidelines, including AI\nCompliance"},
-  {"name": "Mergers & acquisitions", "text": "Deals managed from the first negotiation to integration.", "points": "Deal management from term sheet to closing\nDue diligence that finds opportunities and reduces risk\nCultural and market insight for cross-border deals\nCoordination with local counsel"},
-  {"name": "General counsel as a service", "text": "Ongoing legal support, embedded in your team.", "points": "Day-to-day legal questions\nContract review\nRegulatory compliance\nProactive risk management and strategic advice"},
-  {"name": "General corporate law", "text": "The legal backbone of a company.", "points": "Contracts and corporate documents\nGovernance and structure\nEmployment matters\nPragmatic solutions that protect your business"},
-  {"name": "Sports & entertainment law", "text": "Counsel for athletes, creators and the people around them.", "points": "Contracts, transfers and endorsements\nDisputes\nA network that includes venture capital, investment banks and real estate"}
+  {
+   "name": "Start-up, venture capital & investment",
+   "text": "Support from the first idea to scale.",
+   "points": "Company formation and corporate structure\nIP protection and licensing\nContracts, incentive schemes and employment agreements\nEquity splits that prevent founder and investor conflicts\nCoordination with local advisors abroad\nM&A"
+  },
+  {
+   "name": "AI, tech & intellectual property",
+   "text": "Legal clarity in a digital landscape that changes every month.",
+   "points": "IP strategy, trademark and copyright registration\nLicensing, enforcement and risk management\nTech regulation and guidelines, including AI\nCompliance"
+  },
+  {
+   "name": "Mergers & acquisitions",
+   "text": "Deals managed from the first negotiation to integration.",
+   "points": "Deal management from term sheet to closing\nDue diligence that finds opportunities and reduces risk\nCultural and market insight for cross-border deals\nCoordination with local counsel"
+  },
+  {
+   "name": "General counsel as a service",
+   "text": "Ongoing legal support, embedded in your team.",
+   "points": "Day-to-day legal questions\nContract review\nRegulatory compliance\nProactive risk management and strategic advice"
+  },
+  {
+   "name": "General corporate law",
+   "text": "The legal backbone of a company.",
+   "points": "Contracts and corporate documents\nGovernance and structure\nEmployment matters\nPragmatic solutions that protect your business"
+  },
+  {
+   "name": "Sports & entertainment law",
+   "text": "Counsel for athletes, creators and the people around them.",
+   "points": "Contracts, transfers and endorsements\nDisputes\nA network that includes venture capital, investment banks and real estate"
+  }
  ],
-
  "why_label": "Why siwa law",
  "why_title": "How we work.",
  "reasons": [
-  {"name": "Global mindset, local expertise", "text": "Danish commercial and corporate law, EU regulation and cross-border transactions, for businesses that operate globally."},
-  {"name": "Culture-driven", "text": "Relationships and cultural nuance matter. Our ties reach from Scandinavia to Spain, Brazil, the Middle East and Indonesia."},
-  {"name": "Elite sports experience", "text": "Hands-on experience advising professional football players at the highest European level, and a network across professional sport."},
-  {"name": "Entrepreneurship and tech, hands on", "text": "A venture capital background and years of helping start-ups and scale-ups build, scale and exit, with deep knowledge of AI and tech."},
-  {"name": "A strategic partner", "text": "Legal strategy aligned with business goals, whether you are raising money, facing new AI rules or negotiating a contract."},
-  {"name": "Agile and borderless", "text": "Tech-driven and location independent. We move fast and find flexible solutions."}
+  {
+   "name": "Global mindset, local expertise",
+   "text": "Danish commercial and corporate law, EU regulation and cross-border transactions, for businesses that operate globally."
+  },
+  {
+   "name": "Culture-driven",
+   "text": "Relationships and cultural nuance matter. Our ties reach from Scandinavia to Spain, Brazil, the Middle East and Indonesia."
+  },
+  {
+   "name": "Elite sports experience",
+   "text": "Hands-on experience advising professional football players at the highest European level, and a network across professional sport."
+  },
+  {
+   "name": "Entrepreneurship and tech, hands on",
+   "text": "A venture capital background and years of helping start-ups and scale-ups build, scale and exit, with deep knowledge of AI and tech."
+  },
+  {
+   "name": "A strategic partner",
+   "text": "Legal strategy aligned with business goals, whether you are raising money, facing new AI rules or negotiating a contract."
+  },
+  {
+   "name": "Agile and borderless",
+   "text": "Tech-driven and location independent. We move fast and find flexible solutions."
+  }
  ],
-
+ "map_label": "Where we work",
+ "map_title": "Deals in 50+ countries. Eight languages.",
+ "map_text": "Our languages are official in more than 100 countries. We read the contract, the culture and the room.",
+ "legend_deals": "Countries where we have worked on deals",
+ "legend_lang": "One of our languages is official",
+ "map_aria": "World map of the countries where we have worked on deals and where our languages are official",
+ "map_note": "Deals and languages, not offices: siwa law advises under Danish law and works remote first.",
  "name_label": "The name",
  "name_title": "Named after the Siwa Oasis.",
  "name_text": "Siwa lies in Egypt's Western Desert. It was home to the Oracle of Amun, where Alexander the Great came for guidance. An advisor's role: helping others see the way forward. That is the role we want to play for ambitious clients in a global world.",
-
  "people_label": "People",
  "person_name": "Mousta M. Moustafa",
  "person_role": "Founder and attorney-at-law (advokat)",
@@ -68,28 +109,66 @@
  "photo_alt": "Portrait of Mousta M. Moustafa",
  "career_title": "Career",
  "career": [
-  {"years": "2025–", "role": "Founder and attorney-at-law, siwa law"},
-  {"years": "2022", "role": "Associate General Counsel, US-based AI and tech scale-up"},
-  {"years": "2020–2021", "role": "Venture Developer, Next11"},
-  {"years": "2018–2021", "role": "Senior Legal Counsel, People Ventures"},
-  {"years": "2017–2018", "role": "Global General Counsel, Designit (secondment)"},
-  {"years": "2017–2019", "role": "External lecturer, University of Copenhagen"},
-  {"years": "2014–2018", "role": "Attorney-at-law, Gorrissen Federspiel"},
-  {"years": "2014", "role": "Legal intern, Cuatrecasas"}
+  {
+   "years": "2025–",
+   "role": "Founder and attorney-at-law, siwa law"
+  },
+  {
+   "years": "2022",
+   "role": "Associate General Counsel, US-based AI and tech scale-up"
+  },
+  {
+   "years": "2020–2021",
+   "role": "Venture Developer, Next11"
+  },
+  {
+   "years": "2018–2021",
+   "role": "Senior Legal Counsel, People Ventures"
+  },
+  {
+   "years": "2017–2018",
+   "role": "Global General Counsel, Designit (secondment)"
+  },
+  {
+   "years": "2017–2019",
+   "role": "External lecturer, University of Copenhagen"
+  },
+  {
+   "years": "2014–2018",
+   "role": "Attorney-at-law, Gorrissen Federspiel"
+  },
+  {
+   "years": "2014",
+   "role": "Legal intern, Cuatrecasas"
+  }
  ],
  "edu_title": "Education and admission",
  "education": [
-  {"years": "2017", "role": "Admitted to practise law, Danish Bar and Law Society"},
-  {"years": "2014", "role": "Master of Laws (cand.jur.), University of Copenhagen"},
-  {"years": "2013–2014", "role": "Esade, Barcelona"},
-  {"years": "2013", "role": "LSE, London"},
-  {"years": "2012", "role": "FIFA licensed players' agent"}
+  {
+   "years": "2017",
+   "role": "Admitted to practise law, Danish Bar and Law Society"
+  },
+  {
+   "years": "2014",
+   "role": "Master of Laws (cand.jur.), University of Copenhagen"
+  },
+  {
+   "years": "2013–2014",
+   "role": "Esade, Barcelona"
+  },
+  {
+   "years": "2013",
+   "role": "LSE, London"
+  },
+  {
+   "years": "2012",
+   "role": "FIFA licensed players' agent"
+  }
  ],
  "lang_title": "Languages",
  "languages": "Danish, English, Arabic, Spanish, Portuguese, Swedish, French, Bahasa Indonesia",
  "pub_title": "Publication",
  "publication": "Third-Party Ownership: Buying and Selling of Football Players' Economic Rights in a European Perspective",
-
  "contact_label": "Contact",
  "contact_title": "Your journey to impact starts here.",
  "contact_lead": "Where law meets vision. Tell us briefly what you are working on and we will get back to you.",
@@ -100,7 +179,6 @@
  "address_label": "Address",
  "address": "",
  "contact_note": "Please do not send confidential details until we have confirmed that we can take on your matter. We check for conflicts of interest first.",
-
  "legal_name": "Siwa Law Advokatanpartsselskab",
  "cvr": "CVR 45500136",
  "bar": "Member of the Danish Bar and Law Society",
@@ -108,5 +186,73 @@
  "privacy": "Privacy",
  "terms": "Terms",
  "login": "Log in",
- "en_only": "This page is in English."
+ "en_only": "This page is in English.",
+ "deal_countries": [
+  "Denmark",
+  "Sweden",
+  "Norway",
+  "Finland",
+  "Iceland",
+  "United Kingdom",
+  "Ireland",
+  "Germany",
+  "France",
+  "Netherlands",
+  "Belgium",
+  "Switzerland",
+  "Austria",
+  "Luxembourg",
+  "Spain",
+  "Portugal",
+  "Italy",
+  "Greece",
+  "Poland",
+  "Czechia",
+  "Estonia",
+  "Lithuania",
+  "United States of America",
+  "Canada",
+  "Brazil",
+  "United Arab Emirates",
+  "Saudi Arabia",
+  "Qatar",
+  "Kuwait",
+  "Bahrain",
+  "Oman",
+  "Indonesia",
+  "Singapore",
+  "Malaysia",
+  "Thailand",
+  "Vietnam",
+  "Philippines",
+  "Japan",
+  "South Korea",
+  "China",
+  "Hong Kong",
+  "Taiwan",
+  "Australia",
+  "New Zealand",
+  "Mexico",
+  "Argentina",
+  "Chile",
+  "Egypt",
+  "Lebanon",
+  "Israel",
+  "Morocco",
+  "South Africa",
+  "Nigeria",
+  "Kenya",
+  "Turkey",
+  "India",
+  "Pakistan",
+  "Panama",
+  "Peru",
+  "Rwanda",
+  "Bangladesh",
+  "Tunisia",
+  "Russia",
+  "Algeria",
+  "Greenland",
+  "Kazakhstan"
+ ]
 }

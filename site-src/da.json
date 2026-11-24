@@ -155,5 +155,12 @@
     "role": "FIFA-licenseret spilleragent"
    }
   }
- }
+ },
+ "map_label": "Hvor vi arbejder",
+ "map_title": "Handler i 50+ lande. Otte sprog.",
+ "map_text": "Vores sprog er officielle i mere end 100 lande. Vi læser kontrakten, kulturen og rummet.",
+ "legend_deals": "Lande, hvor vi har arbejdet på handler",
+ "legend_lang": "Et af vores sprog er officielt",
+ "map_aria": "Verdenskort over landene, hvor vi har arbejdet på handler, og hvor vores sprog er officielle",
+ "map_note": "Handler og sprog, ikke kontorer: siwa law rådgiver efter dansk ret og arbejder remote first."
 }

@@ -52,6 +52,8 @@ def render_lists(code, t):
     r['PHONE_TEL'] = '+' + digits
     r['PHONE_WA'] = digits
     r['YEAR'] = str(datetime.date.today().year)
+    r['__LANG__'] = json.dumps(json.load(open('lang_countries.json')))
+    r['__DEAL__'] = json.dumps([c for c in en.get('deal_countries', []) if isinstance(c, str) and c.strip()])
     return r
 
 def switcher(code, page=''):
@@ -83,7 +85,7 @@ def build(code):
     t = load(code)
     html = tpl.replace('/*FONTS*/', fonts())
     for k, v in render_lists(code, t).items():
-        html = html.replace('{{%s}}' % k, v)
+        html = html.replace('{{%s}}' % k, v) if not k.startswith('__') else html.replace(k, v)
     for k, v in t.items():
         if isinstance(v, str):
             html = html.replace('{{%s}}' % k, esc(v))

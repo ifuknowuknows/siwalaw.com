@@ -155,5 +155,12 @@
     "role": "Agente de jogadores licenciado pela FIFA"
    }
   }
- }
+ },
+ "map_label": "Onde trabalhamos",
+ "map_title": "Negócios em mais de 50 países. Oito idiomas.",
+ "map_text": "Nossos idiomas são oficiais em mais de 100 países. Lemos o contrato, a cultura e a sala.",
+ "legend_deals": "Países onde trabalhamos em negócios",
+ "legend_lang": "Um dos nossos idiomas é oficial",
+ "map_aria": "Mapa-múndi dos países onde trabalhamos em negócios e onde nossos idiomas são oficiais",
+ "map_note": "Negócios e idiomas, não escritórios: a siwa law assessora sob a lei dinamarquesa e trabalha com o remoto em primeiro lugar."
 }
