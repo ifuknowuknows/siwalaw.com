@@ -60,6 +60,14 @@ content:
         fields:
           - { name: name, label: Title, type: string, required: true }
           - { name: text, label: Text, type: text }
+      - { name: map_label, label: "Map · Label", type: string }
+      - { name: map_title, label: "Map · Heading", type: string }
+      - { name: map_text, label: "Map · Text", type: text }
+      - { name: legend_deals, label: "Map · Legend, deals", type: string }
+      - { name: legend_lang, label: "Map · Legend, languages", type: string }
+      - { name: map_aria, label: "Hidden · Map description", type: string }
+      - { name: map_note, label: "Map · Small print", type: string }
+      - { name: deal_countries, label: "Map · Countries where we have done deals (English names, e.g. Denmark, United States of America)", type: string, list: true }
       - { name: name_label, label: "Name · Label", type: string }
       - { name: name_title, label: "Name · Heading", type: string }
       - { name: name_text, label: "Name · Text", type: text }
