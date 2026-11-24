@@ -150,6 +150,18 @@ section{padding-block:var(--s900) calc(var(--s900) + var(--s200))}
 .card .n{color:var(--link);margin-bottom:var(--s200)}
 .card p{color:var(--soft)}
 
+/* Map */
+.map-head{display:grid;grid-template-columns:5fr 7fr;gap:var(--s700);align-items:end}
+.map-head>*{min-width:0}
+.map{margin-top:var(--s600)}
+#world{width:100%;height:auto;display:block}
+#world path{fill:rgba(31,37,80,.09);stroke:var(--bg);stroke-width:.6}
+#world .lang{fill:#9AA4DB}#world .deal{fill:var(--ink)}#world circle{stroke:var(--bg);stroke-width:.8}
+.legend{display:flex;gap:var(--s100) var(--s300);flex-wrap:wrap;margin-top:var(--s300);color:var(--soft)}
+.legend span{display:inline-flex;align-items:center;gap:var(--s75)}
+.k{width:12px;height:12px;border-radius:3px;display:inline-block;flex:none}.k.lang{background:#9AA4DB}.k.deal{background:var(--ink)}
+.fn{margin-top:var(--s200);color:var(--soft)}
+
 /* Name */
 .name-grid{display:grid;grid-template-columns:5fr 7fr;gap:var(--s700);align-items:center}
 .name-grid>*{min-width:0}
@@ -200,7 +212,7 @@ footer .fl{display:flex;gap:var(--s300);flex-wrap:wrap}
 @media (max-width:1060px){.seal{display:none}}
 @media (max-width:960px){.nav nav{display:none}.menu-btn{display:block}.nav .cta{display:none}}
 @media (max-width:860px){
-.split,.name-grid,.person,.cv{grid-template-columns:1fr;gap:var(--s400)}
+.split,.name-grid,.person,.cv,.map-head{grid-template-columns:1fr;gap:var(--s400)}
 .split .side,.photo{position:static}
 .photo{max-width:420px}
 .grid,.ways{grid-template-columns:1fr}
@@ -289,6 +301,24 @@ section{padding-block:var(--s700) var(--s800)}
 </div>
 </div>
 </section>
+
+<section id="map">
+<div class="w">
+<div class="map-head reveal"><div><p class="label mono">Où nous intervenons</p><h2 class="h3">Des opérations dans plus de 50 pays. Huit langues.</h2></div><p class="lead b7">Nos langues sont officielles dans plus de 100 pays. Nous lisons le contrat, la culture et la salle.</p></div>
+<div class="map reveal"><svg aria-label="Carte du monde des pays où nous avons travaillé sur des opérations et où nos langues sont officielles" id="world" role="img" viewBox="0 0 960 468"></svg>
+<div class="legend b6"><span id="lg-deal"><i class="k deal"></i>Pays où nous avons travaillé sur des opérations</span><span><i class="k lang"></i>Une de nos langues y est officielle</span></div>
+<p class="fn b6">Des opérations et des langues, pas des bureaux : siwa law conseille en droit danois et travaille d'abord à distance.</p></div>
+</div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/d3-array@3.2.4/dist/d3-array.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-geo@3.1.0/dist/d3-geo.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+<script>(function(){var LANG=["Algeria", "Angola", "Argentina", "Australia", "Bahamas", "Bahrain", "Belgium", "Belize", "Benin", "Bolivia", "Botswana", "Brazil", "Burkina Faso", "Burundi", "Cameroon", "Canada", "Central African Rep.", "Chad", "Chile", "Colombia", "Congo", "Costa Rica", "Cuba", "C\u00f4te d'Ivoire", "Dem. Rep. Congo", "Denmark", "Djibouti", "Dominican Rep.", "Ecuador", "Egypt", "El Salvador", "Eq. Guinea", "Fiji", "Finland", "France", "Gabon", "Gambia", "Ghana", "Guatemala", "Guinea", "Guinea-Bissau", "Guyana", "Haiti", "Honduras", "Hong Kong", "India", "Indonesia", "Iraq", "Ireland", "Jamaica", "Jordan", "Kenya", "Kuwait", "Lebanon", "Lesotho", "Liberia", "Libya", "Luxembourg", "Madagascar", "Malawi", "Mali", "Mauritania", "Mexico", "Morocco", "Mozambique", "Namibia", "New Zealand", "Nicaragua", "Niger", "Nigeria", "Oman", "Pakistan", "Palestine", "Panama", "Papua New Guinea", "Paraguay", "Peru", "Philippines", "Portugal", "Puerto Rico", "Qatar", "Rwanda", "S. Sudan", "Saudi Arabia", "Senegal", "Sierra Leone", "Singapore", "Solomon Is.", "Somalia", "Somaliland", "South Africa", "Spain", "Sudan", "Sweden", "Switzerland", "Syria", "Tanzania", "Timor-Leste", "Togo", "Trinidad and Tobago", "Tunisia", "Uganda", "United Arab Emirates", "United Kingdom", "United States of America", "Uruguay", "Vanuatu", "Venezuela", "W. Sahara", "Yemen", "Zambia", "Zimbabwe", "eSwatini"],DEAL=["Denmark", "Sweden", "Norway", "Finland", "Iceland", "United Kingdom", "Ireland", "Germany", "France", "Netherlands", "Belgium", "Switzerland", "Austria", "Luxembourg", "Spain", "Portugal", "Italy", "Greece", "Poland", "Czechia", "Estonia", "Lithuania", "United States of America", "Canada", "Brazil", "United Arab Emirates", "Saudi Arabia", "Qatar", "Kuwait", "Bahrain", "Oman", "Indonesia", "Singapore", "Malaysia", "Thailand", "Vietnam", "Philippines", "Japan", "South Korea", "China", "Hong Kong", "Taiwan", "Australia", "New Zealand", "Mexico", "Argentina", "Chile", "Egypt", "Lebanon", "Israel", "Morocco", "South Africa", "Nigeria", "Kenya", "Turkey", "India", "Pakistan", "Panama", "Peru", "Rwanda", "Bangladesh", "Tunisia", "Russia", "Algeria", "Greenland", "Kazakhstan"];if(!DEAL.length){var l=document.getElementById("lg-deal");if(l)l.hidden=true}
+var DOT={"Bahrain":[50.55,26.07],"Singapore":[103.82,1.35],"Hong Kong":[114.17,22.32],"Luxembourg":[6.13,49.61],"Monaco":[7.42,43.74],"Malta":[14.4,35.9],"Andorra":[1.52,42.51]};
+fetch("https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countries-110m.json").then(function(r){return r.json()}).then(function(w){var fc=topojson.feature(w,w.objects.countries);fc.features=fc.features.filter(function(f){return f.properties.name!=="Antarctica"});var p=d3.geoEqualEarth().fitSize([960,468],fc),path=d3.geoPath(p);var seen={};
+var h=fc.features.map(function(f){var n=f.properties.name;seen[n]=1;var c=DEAL.indexOf(n)>-1?"deal":LANG.indexOf(n)>-1?"lang":"";return "<path class=\""+c+"\" d=\""+path(f)+"\"><title>"+n+"</title></path>"}).join("");
+Object.keys(DOT).forEach(function(n){var c=DEAL.indexOf(n)>-1?"deal":LANG.indexOf(n)>-1?"lang":"";if(!c)return;var xy=p(DOT[n]);h+="<circle class=\""+c+"\" cx=\""+xy[0].toFixed(1)+"\" cy=\""+xy[1].toFixed(1)+"\" r=\"2.8\"><title>"+n+"</title></circle>"});
+document.getElementById("world").innerHTML=h})})();</script>
 
 <section id="name">
 <div class="w name-grid">
