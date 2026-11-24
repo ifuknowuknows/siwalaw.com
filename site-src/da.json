@@ -1,0 +1,159 @@
+{
+ "title": "siwa law · International advokatvirksomhed",
+ "meta_desc": "siwa law er en international boutique-advokatvirksomhed under dansk ret, der rådgiver AI- og tech-virksomheder, startups, investorer, SMV'er, atleter og creators.",
+ "nav_firm": "Firmaet",
+ "nav_services": "Ydelser",
+ "nav_people": "Folk",
+ "nav_contact": "Kontakt",
+ "cta": "Kontakt os",
+ "skip": "Spring til indhold",
+ "menu": "Menu",
+ "hero_label": "International boutique-advokatvirksomhed",
+ "hero_title": "Vi styrker visionære.",
+ "hero_sub": "Vi rådgiver AI- og tech-virksomheder, startups, investorer, SMV'er, atleter og creators, på otte sprog, fra idé til exit.",
+ "hero_more": "Se vores ydelser",
+ "fact1": "års erfaring med handler",
+ "fact2": "kontinenter",
+ "fact3": "sprog",
+ "fact4": "optaget i Advokatsamfundet",
+ "firm_label": "Firmaet",
+ "firm_title": "Fra Skandinavien til verden.",
+ "firm_p1": "siwa law blev grundlagt i Danmark med blikket rettet ud mod verden. Vi er en flersproget boutique-virksomhed, der arbejder for at få forretningen i hus med vores klienters interesser for øje.",
+ "firm_p2": "I mere end ti år har vi forhandlet og gennemført handler på seks kontinenter. Vores bånd til Skandinavien, Spanien, Brasilien, Mellemøsten og Indonesien giver os den kulturelle indsigt, som lokalt og grænseoverskridende arbejde kræver.",
+ "firm_p3": "Iværksætteri, AI og tech, sport og international forretning er der, hvor vi er stærkest. Vi ser på hver sag fra alle sider, så det juridiske arbejde understøtter dine lokale og globale ambitioner.",
+ "firm_p4": "Vi arbejder remote first: møder foregår online, hvilket sparer dig tid og omkostninger, uanset hvor du er.",
+ "tagline": "Vi lytter, før vi løser. Åbenhed, lydhørhed og forståelse først. Så handling. Sådan bliver en juridisk rådgiver en betroet partner.",
+ "services_label": "Ydelser",
+ "services_title": "Seks områder, én partner hele vejen.",
+ "services_intro": "Fra en idé bliver født til den skal beskyttes, ansættelser, kapital, skalering, forhandlinger og en dag måske et exit.",
+ "why_label": "Hvorfor siwa law",
+ "why_title": "Sådan arbejder vi.",
+ "name_label": "Navnet",
+ "name_title": "Opkaldt efter Siwa-oasen.",
+ "name_text": "Siwa ligger i Egyptens vestlige ørken. Her lå Amon-oraklet, hvor Alexander den Store søgte vejledning. En rådgivers rolle: at hjælpe andre med at se vejen frem. Den rolle vil vi spille for ambitiøse klienter i en global verden.",
+ "people_label": "Folk",
+ "person_role": "Stifter og advokat",
+ "person_bio": "Mousta er en iværksætterminded, tech-kyndig og internationalt orienteret advokat, der taler otte sprog. Han er uddannet hos førende advokatfirmaer i Danmark og Spanien og har studeret i København, London og Barcelona. Han har besøgt mere end 100 lande og alle syv kontinenter og bygger bro gennem sprog og kultur.",
+ "photo_alt": "Portræt af Mousta M. Moustafa",
+ "career_title": "Karriere",
+ "edu_title": "Uddannelse og beskikkelse",
+ "lang_title": "Sprog",
+ "languages": "Dansk, engelsk, arabisk, spansk, portugisisk, svensk, fransk, indonesisk",
+ "pub_title": "Publikation",
+ "contact_label": "Kontakt",
+ "contact_title": "Din vej mod impact starter her.",
+ "contact_lead": "Hvor jura møder vision. Fortæl kort, hvad du arbejder på, så vender vi tilbage.",
+ "phone_label": "Telefon og WhatsApp",
+ "email_label": "E-mail",
+ "address_label": "Adresse",
+ "contact_note": "Send venligst ikke fortrolige oplysninger, før vi har bekræftet, at vi kan påtage os din sag. Vi tjekker først for interessekonflikter.",
+ "bar": "Medlem af Advokatsamfundet",
+ "insurance": "Ansvarsforsikring: Dahlberg Assurance Agentur, police 310-0000156",
+ "privacy": "Privatliv",
+ "terms": "Vilkår",
+ "login": "Log ind",
+ "en_only": "Denne side er på engelsk.",
+ "lists": {
+  "services": {
+   "Start-up, venture capital & investment": {
+    "name": "Startup, venturekapital og investering",
+    "text": "Støtte fra den første idé til skalering.",
+    "points": "Stiftelse og selskabsstruktur\nBeskyttelse og licensering af IP\nKontrakter, incitamentsordninger og ansættelsesaftaler\nEjerfordeling, der forebygger konflikter mellem stiftere og investorer\nKoordinering med lokale rådgivere i udlandet\nM&A"
+   },
+   "AI, tech & intellectual property": {
+    "name": "AI, tech og immaterielle rettigheder",
+    "text": "Juridisk klarhed i et digitalt landskab, der ændrer sig hver måned.",
+    "points": "IP-strategi, registrering af varemærker og ophavsret\nLicensering, håndhævelse og risikostyring\nTech-regulering og retningslinjer, herunder AI\nCompliance"
+   },
+   "Mergers & acquisitions": {
+    "name": "Fusioner og opkøb",
+    "text": "Handler styret fra den første forhandling til integration.",
+    "points": "Styring af handlen fra term sheet til closing\nDue diligence, der finder muligheder og mindsker risiko\nKulturel og markedsmæssig indsigt i grænseoverskridende handler\nKoordinering med lokale advokater"
+   },
+   "General counsel as a service": {
+    "name": "General counsel as a service",
+    "text": "Løbende juridisk støtte, integreret i dit team.",
+    "points": "Daglige juridiske spørgsmål\nKontraktgennemgang\nRegulatorisk compliance\nProaktiv risikostyring og strategisk rådgivning"
+   },
+   "General corporate law": {
+    "name": "Generel selskabsret",
+    "text": "Virksomhedens juridiske rygrad.",
+    "points": "Kontrakter og selskabsdokumenter\nGovernance og struktur\nAnsættelsesretlige forhold\nPragmatiske løsninger, der beskytter din forretning"
+   },
+   "Sports & entertainment law": {
+    "name": "Sports- og underholdningsret",
+    "text": "Rådgivning til atleter, creators og folkene omkring dem.",
+    "points": "Kontrakter, transfers og sponsorater\nTvister\nEt netværk, der omfatter venturekapital, investeringsbanker og fast ejendom"
+   }
+  },
+  "reasons": {
+   "Global mindset, local expertise": {
+    "name": "Globalt mindset, lokal ekspertise",
+    "text": "Dansk erhvervs- og selskabsret, EU-regulering og grænseoverskridende transaktioner for virksomheder, der opererer globalt."
+   },
+   "Culture-driven": {
+    "name": "Drevet af kultur",
+    "text": "Relationer og kulturelle nuancer betyder noget. Vores bånd rækker fra Skandinavien til Spanien, Brasilien, Mellemøsten og Indonesien."
+   },
+   "Elite sports experience": {
+    "name": "Erfaring fra elitesport",
+    "text": "Praktisk erfaring med at rådgive professionelle fodboldspillere på højeste europæiske niveau og et netværk i professionel sport."
+   },
+   "Entrepreneurship and tech, hands on": {
+    "name": "Iværksætteri og tech, hands on",
+    "text": "En baggrund i venturekapital og mange års arbejde med at hjælpe startups og scale-ups med at bygge, skalere og exitte, med dyb viden om AI og tech."
+   },
+   "A strategic partner": {
+    "name": "En strategisk partner",
+    "text": "Juridisk strategi, der flugter med forretningens mål, uanset om du rejser kapital, står over for nye AI-regler eller forhandler en kontrakt."
+   },
+   "Agile and borderless": {
+    "name": "Agil og grænseløs",
+    "text": "Tech-drevet og stedsuafhængig. Vi handler hurtigt og finder fleksible løsninger."
+   }
+  },
+  "career": {
+   "Founder and attorney-at-law, siwa law": {
+    "role": "Stifter og advokat, siwa law"
+   },
+   "Associate General Counsel, US-based AI and tech scale-up": {
+    "role": "Associate General Counsel, amerikansk AI- og tech-scale-up"
+   },
+   "Venture Developer, Next11": {
+    "role": "Venture Developer, Next11"
+   },
+   "Senior Legal Counsel, People Ventures": {
+    "role": "Senior Legal Counsel, People Ventures"
+   },
+   "Global General Counsel, Designit (secondment)": {
+    "role": "Global General Counsel, Designit (udstationering)"
+   },
+   "External lecturer, University of Copenhagen": {
+    "role": "Ekstern lektor, Københavns Universitet"
+   },
+   "Attorney-at-law, Gorrissen Federspiel": {
+    "role": "Advokat, Gorrissen Federspiel"
+   },
+   "Legal intern, Cuatrecasas": {
+    "role": "Juridisk praktikant, Cuatrecasas"
+   }
+  },
+  "education": {
+   "Admitted to practise law, Danish Bar and Law Society": {
+    "role": "Beskikket som advokat, Advokatsamfundet"
+   },
+   "Master of Laws (cand.jur.), University of Copenhagen": {
+    "role": "Cand.jur., Københavns Universitet"
+   },
+   "Esade, Barcelona": {
+    "role": "Esade, Barcelona"
+   },
+   "LSE, London": {
+    "role": "LSE, London"
+   },
+   "FIFA licensed players' agent": {
+    "role": "FIFA-licenseret spilleragent"
+   }
+  }
+ }
+}

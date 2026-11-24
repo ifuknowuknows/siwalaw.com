@@ -1,0 +1,159 @@
+{
+ "title": "siwa law · Firma hukum internasional",
+ "meta_desc": "siwa law adalah firma hukum butik internasional yang memberi nasihat berdasarkan hukum Denmark kepada perusahaan AI dan teknologi, startup, investor, UKM, atlet, dan kreator.",
+ "nav_firm": "Firma",
+ "nav_services": "Layanan",
+ "nav_people": "Tim",
+ "nav_contact": "Kontak",
+ "cta": "Hubungi kami",
+ "skip": "Langsung ke konten",
+ "menu": "Menu",
+ "hero_label": "Firma hukum butik internasional",
+ "hero_title": "Memberdayakan para visioner.",
+ "hero_sub": "Kami memberi nasihat kepada perusahaan AI dan teknologi, startup, investor, UKM, atlet, dan kreator, dalam delapan bahasa, dari ide hingga exit.",
+ "hero_more": "Lihat layanan kami",
+ "fact1": "tahun menangani transaksi",
+ "fact2": "benua",
+ "fact3": "bahasa",
+ "fact4": "diterima di Asosiasi Advokat Denmark",
+ "firm_label": "Firma",
+ "firm_title": "Dari Skandinavia ke seluruh dunia.",
+ "firm_p1": "siwa law didirikan di Denmark dengan wawasan global. Kami adalah firma butik multibahasa yang berkomitmen menyelesaikan urusan bisnis demi kepentingan terbaik klien kami.",
+ "firm_p2": "Selama lebih dari sepuluh tahun, kami telah menegosiasikan dan menuntaskan transaksi di enam benua. Kedekatan kami dengan Skandinavia, Spanyol, Brasil, Timur Tengah, dan Indonesia memberi kami pemahaman budaya yang dibutuhkan untuk pekerjaan lokal maupun lintas negara.",
+ "firm_p3": "Kewirausahaan, AI dan teknologi, olahraga, serta bisnis internasional adalah bidang terkuat kami. Kami melihat setiap perkara dari segala sisi, agar pekerjaan hukum mendukung ambisi lokal dan global Anda.",
+ "firm_p4": "Kami bekerja dengan prinsip remote first: rapat dilakukan secara online, sehingga menghemat waktu dan biaya Anda di mana pun Anda berada.",
+ "tagline": "Kami mendengarkan sebelum mencari solusi. Keterbukaan, mendengarkan dengan sungguh-sungguh, dan pemahaman lebih dulu. Lalu tindakan. Begitulah penasihat hukum menjadi mitra tepercaya.",
+ "services_label": "Layanan",
+ "services_title": "Enam bidang, satu mitra untuk seluruh perjalanan.",
+ "services_intro": "Dari lahirnya sebuah ide hingga melindunginya, merekrut, mencari pendanaan, berkembang, bernegosiasi, dan suatu hari, exit.",
+ "why_label": "Mengapa siwa law",
+ "why_title": "Cara kami bekerja.",
+ "name_label": "Nama kami",
+ "name_title": "Dinamai dari Oasis Siwa.",
+ "name_text": "Siwa terletak di Gurun Barat Mesir. Di sana dulu berdiri Orakel Amun, tempat Aleksander Agung datang mencari petunjuk. Peran seorang penasihat: membantu orang lain melihat jalan ke depan. Peran itulah yang ingin kami jalankan bagi klien yang ambisius di dunia yang global.",
+ "people_label": "Tim",
+ "person_role": "Pendiri dan advokat",
+ "person_bio": "Mousta adalah advokat berjiwa wirausaha, melek teknologi, dan berwawasan internasional yang menguasai delapan bahasa. Ia ditempa di firma hukum terkemuka di Denmark dan Spanyol serta pernah belajar di Kopenhagen, London, dan Barcelona. Ia telah mengunjungi lebih dari 100 negara dan ketujuh benua, dan membangun jembatan lewat bahasa dan budaya.",
+ "photo_alt": "Potret Mousta M. Moustafa",
+ "career_title": "Karier",
+ "edu_title": "Pendidikan dan izin praktik",
+ "lang_title": "Bahasa",
+ "languages": "Denmark, Inggris, Arab, Spanyol, Portugis, Swedia, Prancis, Indonesia",
+ "pub_title": "Publikasi",
+ "contact_label": "Kontak",
+ "contact_title": "Perjalanan Anda menuju dampak dimulai di sini.",
+ "contact_lead": "Tempat hukum bertemu visi. Ceritakan singkat apa yang sedang Anda kerjakan, dan kami akan menghubungi Anda kembali.",
+ "phone_label": "Telepon dan WhatsApp",
+ "email_label": "Email",
+ "address_label": "Alamat",
+ "contact_note": "Mohon jangan mengirim informasi rahasia sebelum kami memastikan bahwa kami dapat menangani perkara Anda. Kami memeriksa konflik kepentingan terlebih dahulu.",
+ "bar": "Anggota Asosiasi Advokat Denmark (Advokatsamfundet)",
+ "insurance": "Asuransi tanggung jawab profesi: Dahlberg Assurance Agentur, polis 310-0000156",
+ "privacy": "Privasi",
+ "terms": "Ketentuan",
+ "login": "Masuk",
+ "en_only": "Halaman ini dalam bahasa Inggris.",
+ "lists": {
+  "services": {
+   "Start-up, venture capital & investment": {
+    "name": "Startup, modal ventura & investasi",
+    "text": "Pendampingan dari ide pertama hingga berkembang.",
+    "points": "Pendirian perusahaan dan struktur korporasi\nPerlindungan dan lisensi kekayaan intelektual\nKontrak, skema insentif, dan perjanjian kerja\nPembagian saham yang mencegah konflik antara pendiri dan investor\nKoordinasi dengan penasihat lokal di luar negeri\nM&A"
+   },
+   "AI, tech & intellectual property": {
+    "name": "AI, teknologi & kekayaan intelektual",
+    "text": "Kejelasan hukum di lanskap digital yang berubah setiap bulan.",
+    "points": "Strategi KI, pendaftaran merek dan hak cipta\nLisensi, penegakan hak, dan manajemen risiko\nRegulasi dan pedoman teknologi, termasuk AI\nKepatuhan"
+   },
+   "Mergers & acquisitions": {
+    "name": "Merger & akuisisi",
+    "text": "Transaksi yang dikelola dari negosiasi pertama hingga integrasi.",
+    "points": "Pengelolaan transaksi dari term sheet hingga closing\nUji tuntas yang menemukan peluang dan mengurangi risiko\nWawasan budaya dan pasar untuk transaksi lintas negara\nKoordinasi dengan pengacara lokal"
+   },
+   "General counsel as a service": {
+    "name": "Penasihat hukum perusahaan sebagai layanan",
+    "text": "Dukungan hukum berkelanjutan, menyatu dengan tim Anda.",
+    "points": "Pertanyaan hukum sehari-hari\nPeninjauan kontrak\nKepatuhan regulasi\nManajemen risiko proaktif dan nasihat strategis"
+   },
+   "General corporate law": {
+    "name": "Hukum korporasi umum",
+    "text": "Tulang punggung hukum sebuah perusahaan.",
+    "points": "Kontrak dan dokumen korporasi\nTata kelola dan struktur\nMasalah ketenagakerjaan\nSolusi pragmatis yang melindungi bisnis Anda"
+   },
+   "Sports & entertainment law": {
+    "name": "Hukum olahraga & hiburan",
+    "text": "Nasihat bagi atlet, kreator, dan orang-orang di sekitar mereka.",
+    "points": "Kontrak, transfer, dan endorsement\nSengketa\nJaringan yang mencakup modal ventura, bank investasi, dan properti"
+   }
+  },
+  "reasons": {
+   "Global mindset, local expertise": {
+    "name": "Pola pikir global, keahlian lokal",
+    "text": "Hukum bisnis dan korporasi Denmark, regulasi Uni Eropa, dan transaksi lintas negara, untuk bisnis yang beroperasi secara global."
+   },
+   "Culture-driven": {
+    "name": "Berlandaskan budaya",
+    "text": "Hubungan dan nuansa budaya itu penting. Jaringan kami terbentang dari Skandinavia hingga Spanyol, Brasil, Timur Tengah, dan Indonesia."
+   },
+   "Elite sports experience": {
+    "name": "Pengalaman di olahraga elite",
+    "text": "Pengalaman langsung menasihati pemain sepak bola profesional di level tertinggi Eropa, serta jaringan di dunia olahraga profesional."
+   },
+   "Entrepreneurship and tech, hands on": {
+    "name": "Kewirausahaan dan teknologi, langsung di lapangan",
+    "text": "Latar belakang modal ventura dan bertahun-tahun membantu startup dan scale-up membangun, berkembang, dan exit, dengan pemahaman mendalam tentang AI dan teknologi."
+   },
+   "A strategic partner": {
+    "name": "Mitra strategis",
+    "text": "Strategi hukum yang selaras dengan tujuan bisnis, baik saat Anda menggalang dana, menghadapi aturan AI baru, maupun menegosiasikan kontrak."
+   },
+   "Agile and borderless": {
+    "name": "Gesit dan tanpa batas",
+    "text": "Digerakkan teknologi dan tidak terikat lokasi. Kami bergerak cepat dan menemukan solusi yang fleksibel."
+   }
+  },
+  "career": {
+   "Founder and attorney-at-law, siwa law": {
+    "role": "Pendiri dan advokat, siwa law"
+   },
+   "Associate General Counsel, US-based AI and tech scale-up": {
+    "role": "Associate General Counsel, scale-up AI dan teknologi asal AS"
+   },
+   "Venture Developer, Next11": {
+    "role": "Venture Developer, Next11"
+   },
+   "Senior Legal Counsel, People Ventures": {
+    "role": "Senior Legal Counsel, People Ventures"
+   },
+   "Global General Counsel, Designit (secondment)": {
+    "role": "Global General Counsel, Designit (penugasan)"
+   },
+   "External lecturer, University of Copenhagen": {
+    "role": "Dosen tamu, Universitas Kopenhagen"
+   },
+   "Attorney-at-law, Gorrissen Federspiel": {
+    "role": "Advokat, Gorrissen Federspiel"
+   },
+   "Legal intern, Cuatrecasas": {
+    "role": "Magang hukum, Cuatrecasas"
+   }
+  },
+  "education": {
+   "Admitted to practise law, Danish Bar and Law Society": {
+    "role": "Izin praktik advokat, Asosiasi Advokat Denmark"
+   },
+   "Master of Laws (cand.jur.), University of Copenhagen": {
+    "role": "Magister Hukum (cand.jur.), Universitas Kopenhagen"
+   },
+   "Esade, Barcelona": {
+    "role": "Esade, Barcelona"
+   },
+   "LSE, London": {
+    "role": "LSE, London"
+   },
+   "FIFA licensed players' agent": {
+    "role": "Agen pemain berlisensi FIFA"
+   }
+  }
+ }
+}

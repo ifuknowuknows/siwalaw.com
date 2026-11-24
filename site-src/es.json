@@ -1,0 +1,159 @@
+{
+ "title": "siwa law · Despacho de abogados internacional",
+ "meta_desc": "siwa law es un despacho boutique internacional que asesora bajo derecho danés a empresas de IA y tecnología, startups, inversores, pymes, deportistas y creadores.",
+ "nav_firm": "Despacho",
+ "nav_services": "Servicios",
+ "nav_people": "Equipo",
+ "nav_contact": "Contacto",
+ "cta": "Contáctanos",
+ "skip": "Ir al contenido",
+ "menu": "Menú",
+ "hero_label": "Despacho boutique internacional",
+ "hero_title": "Impulsamos a los visionarios.",
+ "hero_sub": "Asesoramos a empresas de IA y tecnología, startups, inversores, pymes, deportistas y creadores, en ocho idiomas, de la idea al exit.",
+ "hero_more": "Ver nuestros servicios",
+ "fact1": "años cerrando operaciones",
+ "fact2": "continentes",
+ "fact3": "idiomas",
+ "fact4": "colegiado en el Colegio de Abogados de Dinamarca",
+ "firm_label": "El despacho",
+ "firm_title": "De Escandinavia al mundo.",
+ "firm_p1": "siwa law nació en Dinamarca con vocación global. Somos un despacho boutique multilingüe, comprometido con sacar los negocios adelante en el mejor interés de nuestros clientes.",
+ "firm_p2": "Durante más de diez años hemos negociado y cerrado operaciones en seis continentes. Nuestros vínculos con Escandinavia, España, Brasil, Oriente Medio e Indonesia nos dan la comprensión cultural que exige el trabajo local y transfronterizo.",
+ "firm_p3": "El emprendimiento, la IA y la tecnología, el deporte y los negocios internacionales son nuestro terreno. Miramos cada asunto desde todos los ángulos, para que el trabajo jurídico sirva a tus ambiciones locales y globales.",
+ "firm_p4": "Trabajamos en remoto primero: las reuniones son online, lo que te ahorra tiempo y costes estés donde estés.",
+ "tagline": "Escuchamos antes de resolver. Primero apertura, escucha y comprensión. Después, acción. Así un asesor jurídico se convierte en un socio de confianza.",
+ "services_label": "Servicios",
+ "services_title": "Seis áreas, un socio para todo el camino.",
+ "services_intro": "Desde que nace una idea hasta protegerla, contratar, financiarse, escalar, negociar y, algún día, salir.",
+ "why_label": "Por qué siwa law",
+ "why_title": "Cómo trabajamos.",
+ "name_label": "El nombre",
+ "name_title": "Debe su nombre al oasis de Siwa.",
+ "name_text": "Siwa está en el desierto occidental de Egipto. Allí estaba el oráculo de Amón, al que Alejandro Magno acudió en busca de consejo. El papel de un asesor: ayudar a otros a ver el camino. Ese es el papel que queremos tener para clientes ambiciosos en un mundo global.",
+ "people_label": "Equipo",
+ "person_role": "Fundador y abogado (advokat)",
+ "person_bio": "Mousta es un abogado emprendedor, con dominio de la tecnología y mentalidad internacional, que habla ocho idiomas. Se formó en despachos de primer nivel en Dinamarca y España y estudió en Copenhague, Londres y Barcelona. Ha visitado más de 100 países y los siete continentes, y tiende puentes a través del idioma y la cultura.",
+ "photo_alt": "Retrato de Mousta M. Moustafa",
+ "career_title": "Trayectoria",
+ "edu_title": "Formación y colegiación",
+ "lang_title": "Idiomas",
+ "languages": "Danés, inglés, árabe, español, portugués, sueco, francés, indonesio",
+ "pub_title": "Publicación",
+ "contact_label": "Contacto",
+ "contact_title": "Tu camino hacia el impacto empieza aquí.",
+ "contact_lead": "Donde el derecho se encuentra con la visión. Cuéntanos brevemente en qué trabajas y te responderemos.",
+ "phone_label": "Teléfono y WhatsApp",
+ "email_label": "Email",
+ "address_label": "Dirección",
+ "contact_note": "Por favor, no envíes información confidencial hasta que confirmemos que podemos aceptar tu asunto. Primero comprobamos que no haya conflicto de intereses.",
+ "bar": "Miembro del Colegio de Abogados de Dinamarca (Advokatsamfundet)",
+ "insurance": "Seguro de responsabilidad profesional: Dahlberg Assurance Agentur, póliza 310-0000156",
+ "privacy": "Privacidad",
+ "terms": "Condiciones",
+ "login": "Iniciar sesión",
+ "en_only": "Esta página está en inglés.",
+ "lists": {
+  "services": {
+   "Start-up, venture capital & investment": {
+    "name": "Startups, venture capital e inversión",
+    "text": "Apoyo desde la primera idea hasta escalar.",
+    "points": "Constitución de sociedades y estructura societaria\nProtección y licencias de propiedad intelectual\nContratos, planes de incentivos y contratos laborales\nReparto de participaciones que evita conflictos entre fundadores e inversores\nCoordinación con asesores locales en el extranjero\nM&A"
+   },
+   "AI, tech & intellectual property": {
+    "name": "IA, tecnología y propiedad intelectual",
+    "text": "Claridad jurídica en un entorno digital que cambia cada mes.",
+    "points": "Estrategia de PI, registro de marcas y derechos de autor\nLicencias, defensa de derechos y gestión de riesgos\nRegulación tecnológica y directrices, incluida la IA\nCumplimiento normativo"
+   },
+   "Mergers & acquisitions": {
+    "name": "Fusiones y adquisiciones",
+    "text": "Operaciones gestionadas desde la primera negociación hasta la integración.",
+    "points": "Gestión de la operación del term sheet al cierre\nDue diligence que detecta oportunidades y reduce riesgos\nConocimiento cultural y de mercado en operaciones transfronterizas\nCoordinación con abogados locales"
+   },
+   "General counsel as a service": {
+    "name": "Asesoría jurídica externa (general counsel as a service)",
+    "text": "Apoyo jurídico continuo, integrado en tu equipo.",
+    "points": "Consultas jurídicas del día a día\nRevisión de contratos\nCumplimiento normativo\nGestión proactiva de riesgos y asesoramiento estratégico"
+   },
+   "General corporate law": {
+    "name": "Derecho mercantil y societario",
+    "text": "La columna vertebral jurídica de una empresa.",
+    "points": "Contratos y documentos societarios\nGobierno corporativo y estructura\nCuestiones laborales\nSoluciones pragmáticas que protegen tu negocio"
+   },
+   "Sports & entertainment law": {
+    "name": "Derecho del deporte y del entretenimiento",
+    "text": "Asesoramiento para deportistas, creadores y quienes los rodean.",
+    "points": "Contratos, traspasos y patrocinios\nLitigios y disputas\nUna red que incluye venture capital, banca de inversión e inmobiliario"
+   }
+  },
+  "reasons": {
+   "Global mindset, local expertise": {
+    "name": "Mentalidad global, experiencia local",
+    "text": "Derecho mercantil y societario danés, regulación de la UE y operaciones transfronterizas, para empresas que operan a escala global."
+   },
+   "Culture-driven": {
+    "name": "Guiados por la cultura",
+    "text": "Las relaciones y los matices culturales importan. Nuestros vínculos van de Escandinavia a España, Brasil, Oriente Medio e Indonesia."
+   },
+   "Elite sports experience": {
+    "name": "Experiencia en deporte de élite",
+    "text": "Experiencia práctica asesorando a futbolistas profesionales del más alto nivel europeo y una red en el deporte profesional."
+   },
+   "Entrepreneurship and tech, hands on": {
+    "name": "Emprendimiento y tecnología, desde dentro",
+    "text": "Experiencia en venture capital y años ayudando a startups y scale-ups a crecer, escalar y salir, con un profundo conocimiento de la IA y la tecnología."
+   },
+   "A strategic partner": {
+    "name": "Un socio estratégico",
+    "text": "Estrategia jurídica alineada con los objetivos de negocio, ya sea para levantar capital, afrontar nuevas normas de IA o negociar un contrato."
+   },
+   "Agile and borderless": {
+    "name": "Ágiles y sin fronteras",
+    "text": "Impulsados por la tecnología y sin depender de una ubicación. Nos movemos rápido y encontramos soluciones flexibles."
+   }
+  },
+  "career": {
+   "Founder and attorney-at-law, siwa law": {
+    "role": "Fundador y abogado, siwa law"
+   },
+   "Associate General Counsel, US-based AI and tech scale-up": {
+    "role": "Associate General Counsel, scale-up estadounidense de IA y tecnología"
+   },
+   "Venture Developer, Next11": {
+    "role": "Venture Developer, Next11"
+   },
+   "Senior Legal Counsel, People Ventures": {
+    "role": "Senior Legal Counsel, People Ventures"
+   },
+   "Global General Counsel, Designit (secondment)": {
+    "role": "Global General Counsel, Designit (comisión de servicio)"
+   },
+   "External lecturer, University of Copenhagen": {
+    "role": "Profesor externo, Universidad de Copenhague"
+   },
+   "Attorney-at-law, Gorrissen Federspiel": {
+    "role": "Abogado, Gorrissen Federspiel"
+   },
+   "Legal intern, Cuatrecasas": {
+    "role": "Becario jurídico, Cuatrecasas"
+   }
+  },
+  "education": {
+   "Admitted to practise law, Danish Bar and Law Society": {
+    "role": "Habilitado para ejercer la abogacía, Colegio de Abogados de Dinamarca"
+   },
+   "Master of Laws (cand.jur.), University of Copenhagen": {
+    "role": "Máster en Derecho (cand.jur.), Universidad de Copenhague"
+   },
+   "Esade, Barcelona": {
+    "role": "Esade, Barcelona"
+   },
+   "LSE, London": {
+    "role": "LSE, Londres"
+   },
+   "FIFA licensed players' agent": {
+    "role": "Agente de jugadores con licencia FIFA"
+   }
+  }
+ }
+}
