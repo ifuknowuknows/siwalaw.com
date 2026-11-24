@@ -1,0 +1,135 @@
+media:
+  input: images
+  output: /images
+  categories: [image]
+  rename: safe
+
+content:
+  - name: site
+    label: Website (English decides)
+    type: file
+    path: site-src/en.json
+    format: json
+    fields:
+      - { name: title, label: "Browser tab title", type: string }
+      - { name: meta_desc, label: "Google description", type: text }
+      - { name: brand, label: "Name in the menu", type: string }
+      - { name: nav_firm, label: "Menu · Firm", type: string }
+      - { name: nav_services, label: "Menu · Services", type: string }
+      - { name: nav_people, label: "Menu · People", type: string }
+      - { name: nav_contact, label: "Menu · Contact", type: string }
+      - { name: cta, label: "Button · Get in touch", type: string }
+      - { name: skip, label: "Hidden · Skip to content", type: string }
+      - { name: menu, label: "Hidden · Menu", type: string }
+      - { name: hero_label, label: "Top · Small label", type: string }
+      - { name: hero_title, label: "Top · Headline", type: string }
+      - { name: hero_sub, label: "Top · Text under headline", type: text }
+      - { name: hero_more, label: "Top · Link to services", type: string }
+      - { name: fact1_n, label: "Facts · 1 number", type: string }
+      - { name: fact1, label: "Facts · 1 text", type: string }
+      - { name: fact2_n, label: "Facts · 2 number", type: string }
+      - { name: fact2, label: "Facts · 2 text", type: string }
+      - { name: fact3_n, label: "Facts · 3 number", type: string }
+      - { name: fact3, label: "Facts · 3 text", type: string }
+      - { name: fact4_n, label: "Facts · 4 number", type: string }
+      - { name: fact4, label: "Facts · 4 text", type: string }
+      - { name: firm_label, label: "Firm · Label", type: string }
+      - { name: firm_title, label: "Firm · Heading", type: string }
+      - { name: firm_p1, label: "Firm · Paragraph 1", type: text }
+      - { name: firm_p2, label: "Firm · Paragraph 2", type: text }
+      - { name: firm_p3, label: "Firm · Paragraph 3", type: text }
+      - { name: firm_p4, label: "Firm · Paragraph 4", type: text }
+      - { name: tagline, label: "Big sentence (word by word)", type: text }
+      - { name: services_label, label: "Services · Label", type: string }
+      - { name: services_title, label: "Services · Heading", type: string }
+      - { name: services_intro, label: "Services · Intro", type: text }
+      - name: services
+        label: "Services · List"
+        type: object
+        list: { collapsible: { collapsed: true, summary: "{name}" } }
+        fields:
+          - { name: name, label: Name, type: string, required: true }
+          - { name: text, label: "One line", type: string }
+          - { name: points, label: "Points (one per line)", type: text }
+      - { name: why_label, label: "Why · Label", type: string }
+      - { name: why_title, label: "Why · Heading", type: string }
+      - name: reasons
+        label: "Why · Reasons"
+        type: object
+        list: { collapsible: { collapsed: true, summary: "{name}" } }
+        fields:
+          - { name: name, label: Title, type: string, required: true }
+          - { name: text, label: Text, type: text }
+      - { name: map_label, label: "Map · Label", type: string }
+      - { name: map_title, label: "Map · Heading", type: string }
+      - { name: map_text, label: "Map · Text", type: text }
+      - { name: legend_deals, label: "Map · Legend, deals", type: string }
+      - { name: legend_lang, label: "Map · Legend, languages", type: string }
+      - { name: map_aria, label: "Hidden · Map description", type: string }
+      - { name: map_note, label: "Map · Small print", type: string }
+      - { name: deal_countries, label: "Map · Countries where we have done deals (English names, e.g. Denmark, United States of America)", type: string, list: true }
+      - { name: name_label, label: "Name · Label", type: string }
+      - { name: name_title, label: "Name · Heading", type: string }
+      - { name: name_text, label: "Name · Text", type: text }
+      - { name: people_label, label: "People · Label", type: string }
+      - { name: person_name, label: "People · Name", type: string }
+      - { name: person_role, label: "People · Title", type: string }
+      - { name: person_bio, label: "People · Bio", type: text }
+      - { name: photo, label: "People · Photo", type: image }
+      - { name: photo_alt, label: "People · Photo description", type: string }
+      - { name: career_title, label: "Career · Heading", type: string }
+      - name: career
+        label: "Career · List"
+        type: object
+        list: { collapsible: { collapsed: true, summary: "{years} {role}" } }
+        fields:
+          - { name: years, label: Years, type: string }
+          - { name: role, label: "Role, organisation", type: string, required: true }
+      - { name: edu_title, label: "Education · Heading", type: string }
+      - name: education
+        label: "Education · List"
+        type: object
+        list: { collapsible: { collapsed: true, summary: "{years} {role}" } }
+        fields:
+          - { name: years, label: Years, type: string }
+          - { name: role, label: "Degree or admission", type: string, required: true }
+      - { name: lang_title, label: "Languages · Heading", type: string }
+      - { name: languages, label: "Languages · List", type: string }
+      - { name: pub_title, label: "Publication · Heading", type: string }
+      - { name: publication, label: "Publication · Title", type: string }
+      - { name: contact_label, label: "Contact · Label", type: string }
+      - { name: contact_title, label: "Contact · Heading", type: string }
+      - { name: contact_lead, label: "Contact · Text", type: text }
+      - { name: email_label, label: "Contact · Email label", type: string }
+      - { name: email, label: "Contact · Email", type: string, pattern: { regex: "^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$", message: "Must be an email address" } }
+      - { name: phone_label, label: "Contact · Phone label", type: string }
+      - { name: phone, label: "Contact · Phone", type: string }
+      - { name: address_label, label: "Contact · Address label", type: string }
+      - { name: address, label: "Contact · Address (hidden while empty)", type: text }
+      - { name: contact_note, label: "Contact · Confidentiality note", type: text }
+      - { name: legal_name, label: "Footer · Legal name", type: string }
+      - { name: cvr, label: "Footer · CVR", type: string }
+      - { name: bar, label: "Footer · Bar membership", type: string }
+      - { name: insurance, label: "Footer · Insurance", type: string }
+      - { name: privacy, label: "Footer · Privacy link", type: string }
+      - { name: terms, label: "Footer · Terms link", type: string }
+      - { name: login, label: "Footer · Log in link", type: string }
+      - { name: en_only, label: "Hidden · English-only note", type: string, hidden: true }
+
+  - name: privacy
+    label: Privacy policy (English)
+    type: file
+    path: site-src/privacy.md
+    fields:
+      - { name: title, label: Title, type: string }
+      - { name: updated, label: "Updated (date)", type: string }
+      - { name: body, label: Text, type: rich-text }
+
+  - name: terms
+    label: Terms and conditions (English)
+    type: file
+    path: site-src/terms.md
+    fields:
+      - { name: title, label: Title, type: string }
+      - { name: updated, label: "Updated (date)", type: string }
+      - { name: body, label: Text, type: rich-text }
