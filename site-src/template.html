@@ -92,14 +92,15 @@ section{padding-block:var(--s900) calc(var(--s900) + var(--s200))}
 .tlink:hover{color:var(--link)}
 .tlink svg{width:16px;height:16px;transition:transform .5s var(--ease)}
 .tlink:hover svg{transform:translateX(var(--s50))}
-.hero .w{display:grid;grid-template-columns:7fr 5fr;gap:var(--s700);align-items:stretch}.hero .w>*{min-width:0}
-.hero-photo{border-radius:24px;overflow:hidden;background:var(--ink);max-width:440px;justify-self:end;width:100%;position:relative}.hero-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 0%;display:block}
+.hero .w{display:grid;grid-template-columns:5fr 7fr;gap:var(--s700);align-items:stretch}.hero .w>*{min-width:0}
+.hero-photo{border-radius:24px;overflow:hidden;background:var(--ink);max-width:440px;justify-self:start;width:100%;position:relative;order:-1}[dir=rtl] .hero-photo img{transform:scaleX(-1)}.hero-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 0%;display:block}
 .offer{margin-top:var(--s200);color:var(--soft)}
 
 /* Facts band (signature) */
 .facts{background:var(--ink);color:var(--cream);padding-block:var(--s600)}
+.pricing{margin-top:var(--s300);color:var(--soft)}
 .facts dl{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--s300)}
-.facts div{display:flex;flex-direction:column;gap:var(--s75);padding-left:var(--s200);border-left:1px solid var(--cream-line)}
+.facts dl>div{display:flex;flex-direction:column;gap:var(--s75);padding-left:var(--s200);border-left:1px solid var(--cream-line)}
 .facts dd{font-size:40px;line-height:44px;font-weight:600;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
 .facts dt{order:2;color:var(--cream-soft)}
 
@@ -197,7 +198,7 @@ footer .fl{display:flex;gap:var(--s300);flex-wrap:wrap}
 .split,.name-grid,.person,.cv,.map-head{grid-template-columns:1fr;gap:var(--s400)}
 .split .side,.svc-panel{position:static}
 .hero .w,.svc,.rlist article,.way{grid-template-columns:1fr;gap:var(--s200)}
-.hero-photo{justify-self:start;max-width:360px;aspect-ratio:4/5}
+.hero-photo{justify-self:start;max-width:360px;aspect-ratio:4/5;order:0}
 .js .svc-list{display:none}.js .svc-panel[data-off]{display:block}.svc-panel{padding:var(--s300)}.svc-panels{display:flex;flex-direction:column;gap:var(--s200)}
 .facts dl{grid-template-columns:1fr 1fr;gap:var(--s400) var(--s300)}
 .d1{font-size:44px;line-height:48px}
@@ -229,7 +230,6 @@ section{padding-block:var(--s700) var(--s800)}
 <h1 class="d1">{{hero_title}}</h1>
 <p class="sub t1">{{hero_sub}}</p>
 <div class="actions"><a class="btn btn-t btn-lg" href="mailto:{{email}}?subject={{CALL_SUBJ}}"><svg aria-hidden="true" viewBox="0 0 256 256" fill="currentColor"><path d="M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48ZM203.43,64,128,133.15,52.57,64ZM216,192H40V74.19l82.59,75.71a8,8,0,0,0,10.82,0L216,74.19V192Z"/></svg>{{cta}}</a><a class="tlink btn-t" href="#services">{{hero_more}}<svg aria-hidden="true" class="arr" viewBox="0 0 256 256" fill="currentColor"><path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"/></svg></a></div>
-<p class="offer b6">{{offer_note}}</p>
 </div>
 <div class="hero-photo reveal"><img alt="{{photo_alt}}" height="1000" src="{{photo}}" width="800" fetchpriority="high"/></div>
 </div>
@@ -261,6 +261,7 @@ section{padding-block:var(--s700) var(--s800)}
 <div class="svc reveal">
 {{SERVICES}}
 </div>
+<p class="pricing b6 reveal">{{pricing_note}}</p>
 </div>
 </section>
 
@@ -328,14 +329,14 @@ document.getElementById("world").innerHTML=h})})();</script>
 <div class="way"><span class="mono">{{phone_label}}</span><a class="v t2" href="tel:{{PHONE_TEL}}">{{phone}}</a></div>
 {{ADDRESS}}
 </div>
-<p class="note b6 reveal">{{offer_note}} {{contact_note}}</p>
+<p class="note b6 reveal">{{contact_note}}</p>
 <div class="actions actions-c reveal"><a class="btn btn-t btn-lg" href="mailto:{{email}}?subject={{CALL_SUBJ}}"><svg aria-hidden="true" viewBox="0 0 256 256" fill="currentColor"><path d="M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48ZM203.43,64,128,133.15,52.57,64ZM216,192H40V74.19l82.59,75.71a8,8,0,0,0,10.82,0L216,74.19V192Z"/></svg>{{cta}}</a><a class="tlink btn-t" href="https://wa.me/{{PHONE_WA}}" rel="noopener" target="_blank">WhatsApp<svg aria-hidden="true" class="arr" viewBox="0 0 256 256" fill="currentColor"><path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"/></svg></a></div>
 </div>
 </section>
 </main>
 <footer class="b6"><div class="w">
 <div class="top"><span class="mark" style="color:var(--ink)"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" aria-hidden="true" class="logo"><rect x="8" y="8" width="1008" height="1008" rx="230" fill="#E8E0D4" stroke="#1F2550" stroke-width="16"/><path fill="#1F2550" fill-rule="evenodd" d="M622,236 594,228 557,225 531,227 506,232 481,240 474,245 455,253 420,276 399,299 384,318 376,334 368,356 364,376 364,415 373,452 382,468 404,493 426,508 476,530 563,552 596,563 618,576 634,588 648,605 657,634 657,655 650,677 640,691 627,703 608,716 595,722 558,735 506,742 468,741 432,735 385,720 349,702 340,700 329,701 316,709 312,715 309,728 313,742 326,754 376,778 419,790 474,797 517,797 541,795 566,791 597,783 640,763 674,738 681,731 698,707 705,692 711,672 714,653 714,639 708,604 696,576 684,557 649,527 617,511 595,503 496,476 459,462 445,453 427,431 422,421 419,405 419,388 427,359 436,344 454,322 468,311 501,294 540,284 574,284 593,287 607,292 623,302 638,317 645,332 648,346 647,370 644,380 636,394 621,410 607,418 597,420 580,420 569,418 550,409 541,397 541,383 548,376 564,372 573,365 580,352 580,338 573,326 563,318 547,317 530,321 509,334 501,341 492,353 486,369 484,382 485,406 490,422 503,442 509,449 520,457 541,468 569,475 603,476 638,466 658,454 680,431 694,407 703,374 704,341 696,307 680,278 650,251Z"/></svg>{{brand}}</span><span class="fl"><a href="/privacy">{{privacy}}</a><a href="/terms">{{terms}}</a><a href="https://app.pagescms.org" rel="noopener nofollow" target="_blank">{{login}}</a></span></div>
-<div class="legal"><span>{{legal_name}}</span><span>{{cvr}}</span><span>{{bar}}</span><span>{{insurance}}</span><span>© {{YEAR}}</span></div>
+<div class="legal"><span>{{legal_name}}</span><span>{{ADDR1}}</span><span>{{cvr}}</span><span>{{bar}}</span><span>{{insurance}}</span><span>© {{YEAR}}</span></div>
 </div></footer>
 <script>
 (function(){

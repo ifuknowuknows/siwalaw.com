@@ -6,7 +6,7 @@
  "nav_services": "Services",
  "nav_people": "People",
  "nav_contact": "Contact",
- "cta": "Book a free 20-minute call",
+ "cta": "Book a free intro call",
  "skip": "Skip to content",
  "menu": "Menu",
  "hero_label": "International boutique law firm",
@@ -35,7 +35,7 @@
   {
    "name": "Start-up, venture capital & investment",
    "text": "Support from the first idea to scale.",
-   "points": "Company formation and corporate structure\nIP protection and licensing\nContracts, incentive schemes and employment agreements\nEquity splits that prevent founder and investor conflicts\nCoordination with local advisors abroad\nM&A"
+   "points": "Company formation and corporate structure\nIP protection and licensing\nContracts, incentive schemes and employment agreements\nEquity splits that reduce the risk of founder and investor conflicts\nCoordination with local advisors abroad\nM&A"
   },
   {
    "name": "AI, tech & intellectual property",
@@ -60,7 +60,7 @@
   {
    "name": "Sports & entertainment law",
    "text": "Counsel for athletes, creators and the people around them.",
-   "points": "Contracts, transfers and endorsements\nDisputes\nA network that includes venture capital, investment banks and real estate"
+   "points": "Contracts, transfers and endorsements\nDisputes\nAccess to a network of investors and advisors"
   }
  ],
  "why_label": "Why siwa law",
@@ -92,7 +92,7 @@
   }
  ],
  "map_label": "Where we work",
- "map_title": "Deals in 50+ countries. Eight languages.",
+ "map_title": "Cross-border by default.",
  "map_text": "Our languages are official in more than 100 countries. We read the contract, the culture and the room.",
  "legend_deals": "Countries where we have worked on deals",
  "legend_lang": "One of our languages is official",
@@ -105,7 +105,7 @@
  "person_name": "Mousta M. Moustafa",
  "person_role": "Founder and attorney-at-law (advokat)",
  "person_bio": "Mousta is an entrepreneurial, tech-savvy and internationally minded lawyer who speaks eight languages. He trained at top-tier law firms in Denmark and Spain and studied in Copenhagen, London and Barcelona. He has visited more than 100 countries and all seven continents, and builds bridges through language and culture.",
- "photo": "/mousta.webp",
+ "photo": "/mousta-forward.webp",
  "photo_alt": "Portrait of Mousta M. Moustafa",
  "career_title": "Career",
  "career": [
@@ -161,7 +161,7 @@
    "role": "LSE, London"
   },
   {
-   "years": "2012",
+   "years": "2012–2013",
    "role": "FIFA licensed players' agent"
   }
  ],
@@ -170,18 +170,18 @@
  "pub_title": "Publication",
  "publication": "Third-Party Ownership: Buying and Selling of Football Players' Economic Rights in a European Perspective",
  "contact_label": "Contact",
- "contact_title": "Your journey to impact starts here.",
- "contact_lead": "Where law meets vision. Tell us briefly what you are working on and we will get back to you.",
+ "contact_title": "Tell us what you're working on.",
+ "contact_lead": "A few lines are enough. We reply within one working day.",
  "email": "info@siwalaw.com",
  "phone": "+45 31 68 18 68",
  "phone_label": "Phone and WhatsApp",
  "email_label": "Email",
  "address_label": "Address",
- "address": "",
+ "address": "Bustrupgade 8, 4. th.\n1737 København V\nDenmark",
  "contact_note": "Please do not send confidential details until we have confirmed that we can take on your matter. We check for conflicts of interest first.",
  "legal_name": "Siwa Law Advokatanpartsselskab",
  "cvr": "CVR 45500136",
- "bar": "Member of the Danish Bar and Law Society",
+ "bar": "Advokat (Denmark), member of the Danish Bar and Law Society. Rules of conduct: advokatsamfundet.dk. Complaints: Advokatnævnet, advokatnaevnet.dk",
  "insurance": "Professional indemnity insurance: Dahlberg Assurance Agentur, policy 310-0000156",
  "privacy": "Privacy",
  "terms": "Terms",
@@ -255,7 +255,8 @@
   "Greenland",
   "Kazakhstan"
  ],
- "cta_short": "Book a free call",
- "offer_note": "The first 20-minute call is free and without obligation.",
- "call_subject": "Free 20-minute call"
+ "cta_short": "Book a free intro call",
+ "offer_note": "",
+ "call_subject": "Free intro call",
+ "pricing_note": "How we charge: fixed prices, agreed before we start."
 }

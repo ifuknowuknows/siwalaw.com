@@ -5,7 +5,7 @@
  "nav_services": "Ydelser",
  "nav_people": "Folk",
  "nav_contact": "Kontakt",
- "cta": "Book et gratis 20-minutters opkald",
+ "cta": "Book et gratis introduktionsopkald",
  "skip": "Spring til indhold",
  "menu": "Menu",
  "hero_label": "International boutique-advokatvirksomhed",
@@ -41,13 +41,13 @@
  "languages": "Dansk, engelsk, arabisk, spansk, portugisisk, svensk, fransk, indonesisk",
  "pub_title": "Publikation",
  "contact_label": "Kontakt",
- "contact_title": "Din vej mod impact starter her.",
- "contact_lead": "Hvor jura møder vision. Fortæl kort, hvad du arbejder på, så vender vi tilbage.",
+ "contact_title": "Fortæl os, hvad du arbejder på.",
+ "contact_lead": "Et par linjer er nok. Vi svarer inden for én arbejdsdag.",
  "phone_label": "Telefon og WhatsApp",
  "email_label": "E-mail",
  "address_label": "Adresse",
  "contact_note": "Send venligst ikke fortrolige oplysninger, før vi har bekræftet, at vi kan påtage os din sag. Vi tjekker først for interessekonflikter.",
- "bar": "Medlem af Advokatsamfundet",
+ "bar": "Advokat (Danmark), medlem af Advokatsamfundet. Advokatetiske regler: advokatsamfundet.dk. Klager: Advokatnævnet, advokatnaevnet.dk",
  "insurance": "Ansvarsforsikring: Dahlberg Assurance Agentur, police 310-0000156",
  "privacy": "Privatliv",
  "terms": "Vilkår",
@@ -58,7 +58,7 @@
    "Start-up, venture capital & investment": {
     "name": "Startup, venturekapital og investering",
     "text": "Støtte fra den første idé til skalering.",
-    "points": "Stiftelse og selskabsstruktur\nBeskyttelse og licensering af IP\nKontrakter, incitamentsordninger og ansættelsesaftaler\nEjerfordeling, der forebygger konflikter mellem stiftere og investorer\nKoordinering med lokale rådgivere i udlandet\nM&A"
+    "points": "Stiftelse og selskabsstruktur\nBeskyttelse og licensering af IP\nKontrakter, incitamentsordninger og ansættelsesaftaler\nEjerfordeling, der mindsker risikoen for konflikter mellem stiftere og investorer\nKoordinering med lokale rådgivere i udlandet\nM&A"
    },
    "AI, tech & intellectual property": {
     "name": "AI, tech og immaterielle rettigheder",
@@ -83,7 +83,7 @@
    "Sports & entertainment law": {
     "name": "Sports- og underholdningsret",
     "text": "Rådgivning til atleter, creators og folkene omkring dem.",
-    "points": "Kontrakter, transfers og sponsorater\nTvister\nEt netværk, der omfatter venturekapital, investeringsbanker og fast ejendom"
+    "points": "Kontrakter, transfers og sponsorater\nTvister\nAdgang til et netværk af investorer og rådgivere"
    }
   },
   "reasons": {
@@ -157,13 +157,14 @@
   }
  },
  "map_label": "Hvor vi arbejder",
- "map_title": "Handler i 50+ lande. Otte sprog.",
+ "map_title": "Grænseoverskridende som udgangspunkt.",
  "map_text": "Vores sprog er officielle i mere end 100 lande. Vi læser kontrakten, kulturen og rummet.",
  "legend_deals": "Lande, hvor vi har arbejdet på handler",
  "legend_lang": "Et af vores sprog er officielt",
  "map_aria": "Verdenskort over landene, hvor vi har arbejdet på handler, og hvor vores sprog er officielle",
  "map_note": "Handler og sprog, ikke kontorer: siwa law rådgiver efter dansk ret og arbejder remote first.",
- "cta_short": "Book et gratis opkald",
- "offer_note": "Det første opkald på 20 minutter er gratis og uforpligtende.",
- "call_subject": "Gratis opkald på 20 minutter"
+ "cta_short": "Book et gratis introduktionsopkald",
+ "offer_note": "",
+ "call_subject": "Gratis introduktionsopkald",
+ "pricing_note": "Sådan tager vi betaling: faste priser, aftalt inden vi går i gang."
 }

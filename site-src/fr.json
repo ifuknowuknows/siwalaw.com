@@ -5,7 +5,7 @@
  "nav_services": "Expertises",
  "nav_people": "Équipe",
  "nav_contact": "Contact",
- "cta": "Réservez un appel gratuit de 20 minutes",
+ "cta": "Réservez un appel découverte gratuit",
  "skip": "Aller au contenu",
  "menu": "Menu",
  "hero_label": "Cabinet boutique international",
@@ -41,13 +41,13 @@
  "languages": "Danois, anglais, arabe, espagnol, portugais, suédois, français, indonésien",
  "pub_title": "Publication",
  "contact_label": "Contact",
- "contact_title": "Votre chemin vers l'impact commence ici.",
- "contact_lead": "Là où le droit rencontre la vision. Dites-nous en quelques mots sur quoi vous travaillez et nous reviendrons vers vous.",
+ "contact_title": "Dites-nous sur quoi vous travaillez.",
+ "contact_lead": "Quelques lignes suffisent. Nous répondons sous un jour ouvré.",
  "phone_label": "Téléphone et WhatsApp",
  "email_label": "E-mail",
  "address_label": "Adresse",
  "contact_note": "Merci de ne pas envoyer d'informations confidentielles avant que nous ayons confirmé pouvoir accepter votre dossier. Nous vérifions d'abord l'absence de conflit d'intérêts.",
- "bar": "Membre du barreau danois (Advokatsamfundet)",
+ "bar": "Advokat (Danemark), membre du barreau danois (Advokatsamfundet). Règles déontologiques : advokatsamfundet.dk. Réclamations : Advokatnævnet, advokatnaevnet.dk",
  "insurance": "Assurance responsabilité civile professionnelle : Dahlberg Assurance Agentur, police 310-0000156",
  "privacy": "Confidentialité",
  "terms": "Conditions",
@@ -58,7 +58,7 @@
    "Start-up, venture capital & investment": {
     "name": "Startups, capital-risque et investissement",
     "text": "Un accompagnement de la première idée à la croissance.",
-    "points": "Création de sociétés et structuration\nProtection et licences de propriété intellectuelle\nContrats, plans d'intéressement et contrats de travail\nRépartition du capital qui prévient les conflits entre fondateurs et investisseurs\nCoordination avec des conseils locaux à l'étranger\nFusions-acquisitions"
+    "points": "Création de sociétés et structuration\nProtection et licences de propriété intellectuelle\nContrats, plans d'intéressement et contrats de travail\nRépartition du capital qui réduit le risque de conflits entre fondateurs et investisseurs\nCoordination avec des conseils locaux à l'étranger\nFusions-acquisitions"
    },
    "AI, tech & intellectual property": {
     "name": "IA, tech et propriété intellectuelle",
@@ -83,7 +83,7 @@
    "Sports & entertainment law": {
     "name": "Droit du sport et du divertissement",
     "text": "Du conseil pour les sportifs, les créateurs et leur entourage.",
-    "points": "Contrats, transferts et partenariats\nLitiges\nUn réseau qui inclut le capital-risque, les banques d'affaires et l'immobilier"
+    "points": "Contrats, transferts et partenariats\nLitiges\nAccès à un réseau d'investisseurs et de conseillers"
    }
   },
   "reasons": {
@@ -157,13 +157,14 @@
   }
  },
  "map_label": "Où nous intervenons",
- "map_title": "Des opérations dans plus de 50 pays. Huit langues.",
+ "map_title": "L'international, par défaut.",
  "map_text": "Nos langues sont officielles dans plus de 100 pays. Nous lisons le contrat, la culture et la salle.",
  "legend_deals": "Pays où nous avons travaillé sur des opérations",
  "legend_lang": "Une de nos langues y est officielle",
  "map_aria": "Carte du monde des pays où nous avons travaillé sur des opérations et où nos langues sont officielles",
  "map_note": "Des opérations et des langues, pas des bureaux : siwa law conseille en droit danois et travaille d'abord à distance.",
- "cta_short": "Réserver un appel gratuit",
- "offer_note": "Le premier appel de 20 minutes est gratuit et sans engagement.",
- "call_subject": "Appel gratuit de 20 minutes"
+ "cta_short": "Réservez un appel découverte gratuit",
+ "offer_note": "",
+ "call_subject": "Appel découverte gratuit",
+ "pricing_note": "Nos honoraires : des prix forfaitaires, convenus avant de commencer."
 }

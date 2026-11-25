@@ -5,7 +5,7 @@
  "nav_services": "Layanan",
  "nav_people": "Tim",
  "nav_contact": "Kontak",
- "cta": "Jadwalkan panggilan gratis 20 menit",
+ "cta": "Jadwalkan panggilan perkenalan gratis",
  "skip": "Langsung ke konten",
  "menu": "Menu",
  "hero_label": "Firma hukum butik internasional",
@@ -41,13 +41,13 @@
  "languages": "Denmark, Inggris, Arab, Spanyol, Portugis, Swedia, Prancis, Indonesia",
  "pub_title": "Publikasi",
  "contact_label": "Kontak",
- "contact_title": "Perjalanan Anda menuju dampak dimulai di sini.",
- "contact_lead": "Tempat hukum bertemu visi. Ceritakan singkat apa yang sedang Anda kerjakan, dan kami akan menghubungi Anda kembali.",
+ "contact_title": "Ceritakan apa yang sedang Anda kerjakan.",
+ "contact_lead": "Beberapa baris saja cukup. Kami membalas dalam satu hari kerja.",
  "phone_label": "Telepon dan WhatsApp",
  "email_label": "Email",
  "address_label": "Alamat",
  "contact_note": "Mohon jangan mengirim informasi rahasia sebelum kami memastikan bahwa kami dapat menangani perkara Anda. Kami memeriksa konflik kepentingan terlebih dahulu.",
- "bar": "Anggota Asosiasi Advokat Denmark (Advokatsamfundet)",
+ "bar": "Advokat (Denmark), anggota Asosiasi Advokat Denmark (Advokatsamfundet). Kode etik: advokatsamfundet.dk. Pengaduan: Advokatnævnet, advokatnaevnet.dk",
  "insurance": "Asuransi tanggung jawab profesi: Dahlberg Assurance Agentur, polis 310-0000156",
  "privacy": "Privasi",
  "terms": "Ketentuan",
@@ -58,7 +58,7 @@
    "Start-up, venture capital & investment": {
     "name": "Startup, modal ventura & investasi",
     "text": "Pendampingan dari ide pertama hingga berkembang.",
-    "points": "Pendirian perusahaan dan struktur korporasi\nPerlindungan dan lisensi kekayaan intelektual\nKontrak, skema insentif, dan perjanjian kerja\nPembagian saham yang mencegah konflik antara pendiri dan investor\nKoordinasi dengan penasihat lokal di luar negeri\nM&A"
+    "points": "Pendirian perusahaan dan struktur korporasi\nPerlindungan dan lisensi kekayaan intelektual\nKontrak, skema insentif, dan perjanjian kerja\nPembagian saham yang mengurangi risiko konflik antara pendiri dan investor\nKoordinasi dengan penasihat lokal di luar negeri\nM&A"
    },
    "AI, tech & intellectual property": {
     "name": "AI, teknologi & kekayaan intelektual",
@@ -83,7 +83,7 @@
    "Sports & entertainment law": {
     "name": "Hukum olahraga & hiburan",
     "text": "Nasihat bagi atlet, kreator, dan orang-orang di sekitar mereka.",
-    "points": "Kontrak, transfer, dan endorsement\nSengketa\nJaringan yang mencakup modal ventura, bank investasi, dan properti"
+    "points": "Kontrak, transfer, dan endorsement\nSengketa\nAkses ke jaringan investor dan penasihat"
    }
   },
   "reasons": {
@@ -157,13 +157,14 @@
   }
  },
  "map_label": "Di mana kami bekerja",
- "map_title": "Transaksi di 50+ negara. Delapan bahasa.",
+ "map_title": "Lintas negara sejak awal.",
  "map_text": "Bahasa kami menjadi bahasa resmi di lebih dari 100 negara. Kami memahami kontraknya, budayanya, dan suasana ruangannya.",
  "legend_deals": "Negara tempat kami menangani transaksi",
  "legend_lang": "Salah satu bahasa kami adalah bahasa resmi",
  "map_aria": "Peta dunia negara-negara tempat kami menangani transaksi dan tempat bahasa kami menjadi bahasa resmi",
  "map_note": "Transaksi dan bahasa, bukan kantor: siwa law memberi nasihat berdasarkan hukum Denmark dan bekerja dengan prinsip remote first.",
- "cta_short": "Jadwalkan panggilan gratis",
- "offer_note": "Panggilan pertama selama 20 menit gratis dan tanpa kewajiban.",
- "call_subject": "Panggilan gratis 20 menit"
+ "cta_short": "Jadwalkan panggilan perkenalan gratis",
+ "offer_note": "",
+ "call_subject": "Panggilan perkenalan gratis",
+ "pricing_note": "Cara kami menagih: harga tetap, disepakati sebelum kami mulai."
 }

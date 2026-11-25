@@ -4,7 +4,7 @@ updated: 24 November 2026
 ---
 # Privacy policy
 
-SIWA Law Advokatanpartsselskab ("SIWA Law") handles personal data of its clients in the course of providing legal assistance and has therefore adopted this privacy policy, which describes how your data is processed and the rights you have as a registered person.
+Siwa Law Advokatanpartsselskab ("siwa law") handles personal data of its clients in the course of providing legal assistance and has therefore adopted this privacy policy, which describes how your data is processed and the rights you have as a registered person.
 
 To best protect your personal data, we assess the risk of our data processing negatively affecting your fundamental rights, and we process your personal data based on the following basic principles:
 
@@ -15,16 +15,16 @@ To best protect your personal data, we assess the risk of our data processing ne
 - Processing is done based on a principle of integrity and confidentiality.
 
 ## Data controller
-SIWA Law is responsible for ensuring that your personal data is processed in accordance with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 (the General Data Protection Regulation) and relevant national legislation.
+siwa law is responsible for ensuring that your personal data is processed in accordance with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 (the General Data Protection Regulation) and relevant national legislation.
 
 If you have any questions regarding the processing of personal data, please contact:
 
 **Mousta M. Moustafa**
-Phone: +45 31 68 18 68 / +34 600 470 519
+Phone: +45 31 68 18 68
 Email: [info@siwalaw.com](mailto:info@siwalaw.com)
 
 ## Processing of personal data as part of our legal advice
-At SIWA Law, we process personal data about you as an unavoidable part of the advice we provide you and in our ongoing contact with you.
+At siwa law, we process personal data about you as an unavoidable part of the advice we provide you and in our ongoing contact with you.
 
 ## Types of personal data
 In connection with the provision of legal advice, we process personal data about you, which among other things includes:

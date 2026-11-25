@@ -49,6 +49,7 @@ def render_lists(code, t):
     for name, ph in (('career', 'CAREER'), ('education', 'EDUCATION')):
         r[ph] = ''.join('<li><span>%s</span><span>%s</span></li>' % (esc(x.get('years')), esc(x.get('role'))) for x in items(code, t, name))
     addr = (t.get('address') or en.get('address') or '').strip()
+    r['ADDR1'] = esc(addr.replace('\n', ', '))
     r['ADDRESS'] = ('<div class="way"><span class="mono">%s</span><span class="v t2">%s</span></div>' % (esc(t['address_label']), esc(addr).replace('\n', '<br>'))) if addr else ''
     digits = re.sub(r'\D', '', en['phone'])
     r['PHONE_TEL'] = '+' + digits
@@ -70,7 +71,7 @@ LANG_CSS = ('.lang{position:relative}.lang summary{list-style:none;cursor:pointe
             '.lang .menu a:hover,.lang .menu a[aria-current]{background:var(--stone)}')
 RTL_CSS = ('[dir=rtl] *{letter-spacing:0!important}[dir=rtl] body{font-family:"Noto Sans Arabic","Geeza Pro","Segoe UI",Tahoma,sans-serif}'
            '[dir=rtl] .lang .menu{right:auto;left:0}[dir=rtl] .arr{transform:scaleX(-1)}[dir=rtl] .tlink:hover .arr{transform:scaleX(-1) translateX(4px)}'
-           '[dir=rtl] .seal{right:auto;left:max(24px,env(safe-area-inset-left,0px))}[dir=rtl] .facts div{border-left:0;border-right:1px solid var(--cream-line);padding-left:0;padding-right:16px}'
+           '[dir=rtl] .seal{right:auto;left:max(24px,env(safe-area-inset-left,0px))}[dir=rtl] .facts dl>div{border-left:0;border-right:1px solid var(--cream-line);padding-left:0;padding-right:16px}'
            '[dir=rtl] .svc li{padding-left:0;padding-right:24px}[dir=rtl] .svc li::before{left:auto;right:0}[dir=rtl] .way .v{direction:ltr;text-align:right}'
            '[dir=rtl] .oasis svg{right:auto;left:-20px}')
 
