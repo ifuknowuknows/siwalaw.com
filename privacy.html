@@ -96,14 +96,15 @@ section{padding-block:var(--s900) calc(var(--s900) + var(--s200))}
 .tlink:hover{color:var(--link)}
 .tlink svg{width:16px;height:16px;transition:transform .5s var(--ease)}
 .tlink:hover svg{transform:translateX(var(--s50))}
-.hero .w{display:grid;grid-template-columns:7fr 5fr;gap:var(--s700);align-items:stretch}.hero .w>*{min-width:0}
-.hero-photo{border-radius:24px;overflow:hidden;background:var(--ink);max-width:440px;justify-self:end;width:100%;position:relative}.hero-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 0%;display:block}
+.hero .w{display:grid;grid-template-columns:5fr 7fr;gap:var(--s700);align-items:stretch}.hero .w>*{min-width:0}
+.hero-photo{border-radius:24px;overflow:hidden;background:var(--ink);max-width:440px;justify-self:start;width:100%;position:relative;order:-1}[dir=rtl] .hero-photo img{transform:scaleX(-1)}.hero-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 0%;display:block}
 .offer{margin-top:var(--s200);color:var(--soft)}
 
 /* Facts band (signature) */
 .facts{background:var(--ink);color:var(--cream);padding-block:var(--s600)}
+.pricing{margin-top:var(--s300);color:var(--soft)}
 .facts dl{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--s300)}
-.facts div{display:flex;flex-direction:column;gap:var(--s75);padding-left:var(--s200);border-left:1px solid var(--cream-line)}
+.facts dl>div{display:flex;flex-direction:column;gap:var(--s75);padding-left:var(--s200);border-left:1px solid var(--cream-line)}
 .facts dd{font-size:40px;line-height:44px;font-weight:600;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
 .facts dt{order:2;color:var(--cream-soft)}
 
@@ -201,7 +202,7 @@ footer .fl{display:flex;gap:var(--s300);flex-wrap:wrap}
 .split,.name-grid,.person,.cv,.map-head{grid-template-columns:1fr;gap:var(--s400)}
 .split .side,.svc-panel{position:static}
 .hero .w,.svc,.rlist article,.way{grid-template-columns:1fr;gap:var(--s200)}
-.hero-photo{justify-self:start;max-width:360px;aspect-ratio:4/5}
+.hero-photo{justify-self:start;max-width:360px;aspect-ratio:4/5;order:0}
 .js .svc-list{display:none}.js .svc-panel[data-off]{display:block}.svc-panel{padding:var(--s300)}.svc-panels{display:flex;flex-direction:column;gap:var(--s200)}
 .facts dl{grid-template-columns:1fr 1fr;gap:var(--s400) var(--s300)}
 .d1{font-size:44px;line-height:48px}
@@ -215,7 +216,7 @@ section{padding-block:var(--s700) var(--s800)}
 @media (max-width:420px){.w{padding-left:max(var(--s200),env(safe-area-inset-left,0px));padding-right:max(var(--s200),env(safe-area-inset-right,0px))}.nav{gap:var(--s200);padding-left:var(--s200)}}
 .doc{max-width:760px;margin:0 auto;padding:var(--s900) max(var(--s300),env(safe-area-inset-right,0px)) var(--s900) max(var(--s300),env(safe-area-inset-left,0px))}.doc h1{margin-bottom:var(--s200)}.doc h2{margin:var(--s500) 0 var(--s100)}.doc p,.doc li{color:var(--soft);font-size:17px;line-height:28px}.doc p+p{margin-top:var(--s200)}.doc ul{margin:var(--s100) 0;display:flex;flex-direction:column;gap:var(--s50)}.doc li{padding-left:var(--s300);position:relative}.doc li::before{content:"";position:absolute;left:0;top:14px;width:12px;height:1px;background:var(--ink)}.doc a{color:var(--link)}.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:var(--s700)}.upd{color:var(--soft);margin-bottom:var(--s400)}</style>
 </head><body><main class="doc"><div class="top"><a class="mark" href="/">siwa law</a><a class="tlink btn-t" href="/">Home</a></div><h1 class="d2">Privacy policy</h1><p class="upd mono">Updated 24 November 2026</p>
-<p>SIWA Law Advokatanpartsselskab ("SIWA Law") handles personal data of its clients in the course of providing legal assistance and has therefore adopted this privacy policy, which describes how your data is processed and the rights you have as a registered person.</p>
+<p>Siwa Law Advokatanpartsselskab ("siwa law") handles personal data of its clients in the course of providing legal assistance and has therefore adopted this privacy policy, which describes how your data is processed and the rights you have as a registered person.</p>
 <p>To best protect your personal data, we assess the risk of our data processing negatively affecting your fundamental rights, and we process your personal data based on the following basic principles:</p>
 <ul>
 <li>Processing is done in a lawful, fair, and transparent manner towards you, and is subject to purpose limitation.</li>
@@ -225,13 +226,13 @@ section{padding-block:var(--s700) var(--s800)}
 <li>Processing is done based on a principle of integrity and confidentiality.</li>
 </ul>
 <h2 class="h5">Data controller</h2>
-<p>SIWA Law is responsible for ensuring that your personal data is processed in accordance with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 (the General Data Protection Regulation) and relevant national legislation.</p>
+<p>siwa law is responsible for ensuring that your personal data is processed in accordance with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 (the General Data Protection Regulation) and relevant national legislation.</p>
 <p>If you have any questions regarding the processing of personal data, please contact:</p>
 <p><strong>Mousta M. Moustafa</strong></p>
-<p>Phone: +45 31 68 18 68 / +34 600 470 519</p>
+<p>Phone: +45 31 68 18 68</p>
 <p>Email: <a href="mailto:info@siwalaw.com">info@siwalaw.com</a></p>
 <h2 class="h5">Processing of personal data as part of our legal advice</h2>
-<p>At SIWA Law, we process personal data about you as an unavoidable part of the advice we provide you and in our ongoing contact with you.</p>
+<p>At siwa law, we process personal data about you as an unavoidable part of the advice we provide you and in our ongoing contact with you.</p>
 <h2 class="h5">Types of personal data</h2>
 <p>In connection with the provision of legal advice, we process personal data about you, which among other things includes:</p>
 <ul>
